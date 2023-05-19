@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello there. Welcome to my humble website. <br>
+My name is Jia Keat, I'm a Junior at the DigiPen Institute of Technology majoring in Computer Science in Real-Time Interactive Simulation.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I've been building software in C++ for over 5 years, mostly games and game engines for Windows.
+I specialize in game engine architecture and serialization, with a bit of graphics programming on the side.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+During my time as an undergraduate at DigiPen, other than making games, I've dabbled in web development, cloud computing, mobile app development, parallel programming and more.
 
-
-[jekyll-organization]: https://github.com/jekyll
+I love technology, video games, and building software.
