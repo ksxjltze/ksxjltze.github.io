@@ -33,6 +33,21 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Default variables
+defaults:
+  - 
+    scope:
+      path: "" #all files
+      type: "pages"
+    values:
+      layout: "default"
+
+# Header settings
+# Pages to show in header
+header_pages:
+  - "about.markdown"
+  - "projects.html"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
