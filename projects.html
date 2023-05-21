@@ -3,8 +3,12 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-
-You can find my past projects on this page.
-
-<div class="projectslist">
-  </div>
+<div class="projects">
+    You can find my past projects on this page.
+    <div class="projects-list" style="margin-top: 10px">
+        {% for project in site.projects %}
+        <h2>{{ project.name }}</h2>
+        <p>{{ project.content | markdownify }}</p>
+      {% endfor %}
+    </div>
+</div>
