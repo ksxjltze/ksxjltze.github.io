@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="post">
+  <link rel="stylesheet" type="text/css" href="{{site.url}}/css/project.css" />
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1> 
+    <p>{{ page.start-date | date: "%B %Y"}} - {{ page.end-date | date: "%B %Y"}}</p>
+    {%- if page.school-project -%}
+    <p class="subtitle">{{page.module}}</p>
+    <p class="subtitle">{{page.school}}</p>
+    {%- endif -%}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

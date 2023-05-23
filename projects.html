@@ -4,12 +4,14 @@ title: Projects
 permalink: /projects/
 ---
 <div class="projects">
+  <script src="{{site.url}}/scripts/projects.js"></script>
     You can find my past projects on this page.
+    <!-- <button type="button" onclick="test()">Test</button> -->
     <div class="projects-list" style="margin-top: 10px">
         {% for project in site.projects %}
-        <a href="/projects/{{ project.name }}/"><h2>{{ project.name }}</h2></a>
-        <p>{{ project.date | date: "%-d %B %Y"}}</p>
-        <p>{{ project.content | markdownify }}</p>
+        <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
+        <p>{{ project.start-date | date: "%B %Y"}} - {{ project.end-date | date: "%B %Y"}}</p>
+        <!-- <p>{{ project.content | markdownify }}</p> -->
       {% endfor %}
     </div>
 </div>
