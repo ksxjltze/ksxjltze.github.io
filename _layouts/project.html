@@ -5,11 +5,13 @@ layout: default
   <link rel="stylesheet" type="text/css" href="/css/project.css" />
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1> 
-    <p>{{ page.start-date | date: "%B %Y"}} - {{ page.end-date | date: "%B %Y"}}</p>
-    {%- if page.school-project -%}
-    <p class="subtitle">{{page.module}}</p>
-    <p class="subtitle">{{page.school}}</p>
-    {%- endif -%}
+    <div id="project-info">
+      <p><i>{{ page.start-date | date: "%B %Y"}} - {{ page.end-date | date: "%B %Y"}}</i></p>
+      {%- if page.school-project -%}
+      <p class="subtitle"><i>{{page.module}}</i></p>
+      <p class="subtitle"><i>{{page.school}}</i></p>
+      {%- endif -%}
+    </div>
   </header>
 
   <div class="post-content">
