@@ -17,6 +17,9 @@ It was developed for the Software Engineering Project 5 and Software Engineering
 This module focuses on the development of the custom game engine, named EngineEngine, which is written from scratch in C++ with the help of third party libraries and APIs.
 My role, as a programmer in a team of 10 students, was largely to build serialization systems and the asset pipeline, while playing an assisting role in the development of the graphics engine.
 
+### Showcase Video
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/90ZM4lTItI8" title="GodKillers - EngineEngine Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### Libraries:
 - GLFW: Used for creating and managing windows, as well as for creating the OpenGL rendering context.
 - EnTT: Provides a robust Entity Component System (ECS), for managing game entities and components.
