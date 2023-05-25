@@ -9,7 +9,8 @@ permalink: /projects/
     You can find my past projects on this page.
     <!-- <button type="button" onclick="test()">Test</button> -->
     <div class="projects-list" style="margin-top: 10px">
-        {% for project in site.projects %}
+        {% assign projects_by_end_date_first = site.projects | sort:"end-date" | reverse %}
+        {% for project in projects_by_end_date_first %}
         <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
         <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - {{ project.end-date | date: "%B %Y"}}</i></p>
         <!-- <p>{{ project.content | markdownify }}</p> -->
