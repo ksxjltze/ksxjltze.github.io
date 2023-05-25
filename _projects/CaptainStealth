@@ -1,0 +1,13 @@
+---
+layout: project
+title: "Captain Stealth"
+permalink: "projects/captainstealth/"
+game-engine: "AlphaEngine"
+start-date: 2021-01-01
+end-date: 2021-04-01
+school-project: True
+school: DigiPen Institute of Technology Singapore
+module: Software Engineering Project 2
+---
+
+2D Top-down stealth game.
