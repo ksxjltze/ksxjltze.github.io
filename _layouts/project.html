@@ -6,8 +6,11 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1> 
     <div id="project-info">
-      <!-- end-date is defined here -->
-      {% include project-end-date.html %}
+      {% if page.end-date %}
+        {% assign end_date = page.end-date | date: "%B %Y" %}
+      {% else %}
+        {% assign end_date = "Ongoing" %}
+      {% endif %}
       <p><i>{{ page.start-date | date: "%B %Y"}} - {{ end_date }}</i></p>
       {%- if page.school-project -%}
       <p class="subtitle"><i>{{page.module}}</i></p>
