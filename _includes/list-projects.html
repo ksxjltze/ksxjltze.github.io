@@ -1,0 +1,9 @@
+{% assign projects_by_end_date_first = include.projects | sort:"end-date" | reverse %}
+{% for project in projects_by_end_date_first %}
+  <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
+
+  <!-- end-date is defined here -->
+  {% include project-end-date.html %}
+  
+  <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - {{ end_date }}</i></p>
+{% endfor %}

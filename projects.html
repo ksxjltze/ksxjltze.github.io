@@ -10,11 +10,6 @@ permalink: /projects/
     You can find my side projects <a href="/side-projects/">here</a>.
     <!-- <button type="button" onclick="test()">Test</button> -->
     <div class="projects-list" style="margin-top: 10px">
-        {% assign projects_by_end_date_first = site.projects | sort:"end-date" | reverse %}
-        {% for project in projects_by_end_date_first %}
-        <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
-        <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - {{ project.end-date | date: "%B %Y"}}</i></p>
-        <!-- <p>{{ project.content | markdownify }}</p> -->
-      {% endfor %}
+        {% include list-projects.html projects=site.projects %}
     </div>
 </div>

@@ -8,18 +8,6 @@ permalink: /side-projects/
     <link rel="stylesheet" type="text/css" href="/css/project.css" />
     You can find my side projects on this page.
     <div class="projects-list" style="margin-top: 10px">
-        {% assign side_projects_by_end_date_first = site.side-projects | sort:"end-date" | reverse %}
-        {% for project in side_projects_by_end_date_first %}
-          <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
-
-          {% if project.end-date %}
-            {% assign end_date = project.end-date | date: "%B %Y" %}
-          {% else %}
-            {% assign end_date = "Ongoing" %}
-          {% endif %}
-          
-          <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - {{ end_date }}</i></p>
-          <!-- <p>{{ project.content | markdownify }}</p> -->
-      {% endfor %}
+      {% include list-projects.html projects=site.side-projects %}
     </div>
 </div>
