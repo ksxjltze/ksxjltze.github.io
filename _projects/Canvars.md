@@ -10,4 +10,5 @@ module: CSD3156 - Mobile and Cloud Computing
 ---
 
 Canvars is a simple portfolio showcase web app created using AWS Amplify and ReactJS.
-It is unfortunately, no longer in service.
+Initially planned to have a Django backend, which was unfortunately scrapped due to time constraints.
+The web app is longer in service.
