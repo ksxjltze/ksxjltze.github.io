@@ -10,7 +10,7 @@ You can read more about me [here](/about/ "About Lee Jia Keat") and view my past
 
 <div id="profile-card">
     <link rel="stylesheet" type="text/css" href="/css/home.css"/>
-    <div class="profile-item">
+    <div class="profile-item" id="profile-info">
         <h1><b>Software Engineer</b></h1>
         <p class="profile-text">Hello, my name is Lee Jia Keat. An aspiring Software Engineer based in Singapore.</p>
     </div>

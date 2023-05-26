@@ -1,12 +1,18 @@
 #profile-img{
     border-radius: 100%;
+    margin-top: -1.5em;
 }
 
 #profile-card{
     background-color: rgb(255, 255, 255);
     border-radius: 10em;
-    padding: 3em;
-    display: flex
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+#profile-info{
+    margin-top: 1.5em;
 }
 
 .profile-item{
