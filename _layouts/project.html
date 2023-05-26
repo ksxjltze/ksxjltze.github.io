@@ -11,6 +11,9 @@ layout: default
       <p class="subtitle"><i>{{page.module}}</i></p>
       <p class="subtitle"><i>{{page.school}}</i></p>
       {%- endif -%}
+      {%- if page.github-link -%}
+      <p class="subtitle"><a href="{{page.github-link}}">Github Page</a></p>
+      {%- endif -%}
     </div>
   </header>
 

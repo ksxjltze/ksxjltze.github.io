@@ -1,0 +1,18 @@
+---
+layout: page
+title: Side Projects
+permalink: /side-projects/
+---
+
+<div id="side-projects">
+    <link rel="stylesheet" type="text/css" href="/css/project.css" />
+    You can find my side projects on this page.
+    <div class="projects-list" style="margin-top: 10px">
+        {% assign side_projects_by_end_date_first = site.side-projects | sort:"end-date" | reverse %}
+        {% for project in side_projects_by_end_date_first %}
+        <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
+        <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - {{ project.end-date | date: "%B %Y"}}</i></p>
+        <!-- <p>{{ project.content | markdownify }}</p> -->
+      {% endfor %}
+    </div>
+</div>
