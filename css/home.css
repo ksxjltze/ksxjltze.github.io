@@ -1,0 +1,19 @@
+#profile-img{
+    border-radius: 100%;
+    margin-left: -11em;
+}
+
+#profile-card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10em;
+    padding: 3em;
+}
+
+.profile-item{
+    display: inline-block;    
+}
+
+.profile-text{
+    inline-size: 70%; 
+    word-wrap: break-word;
+}
