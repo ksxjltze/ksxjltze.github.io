@@ -10,9 +10,16 @@ permalink: /side-projects/
     <div class="projects-list" style="margin-top: 10px">
         {% assign side_projects_by_end_date_first = site.side-projects | sort:"end-date" | reverse %}
         {% for project in side_projects_by_end_date_first %}
-        <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
-        <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - {{ project.end-date | date: "%B %Y"}}</i></p>
-        <!-- <p>{{ project.content | markdownify }}</p> -->
+          <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
+
+          {% if project.end-date %}
+            {% assign end_date = project.end-date | date: "%B %Y" %}
+          {% else %}
+            {% assign end_date = "Ongoing" %}
+          {% endif %}
+          
+          <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - {{ end_date }}</i></p>
+          <!-- <p>{{ project.content | markdownify }}</p> -->
       {% endfor %}
     </div>
 </div>
