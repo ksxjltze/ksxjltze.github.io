@@ -47,6 +47,7 @@ defaults:
 header_pages:
   - "about.markdown"
   - "projects.html"
+  - "portfolio.html"
 
 # Collections
 collections:
