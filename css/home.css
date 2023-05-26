@@ -1,12 +1,12 @@
 #profile-img{
     border-radius: 100%;
-    margin-left: -11em;
 }
 
 #profile-card{
     background-color: rgb(255, 255, 255);
     border-radius: 10em;
     padding: 3em;
+    display: flex
 }
 
 .profile-item{
@@ -14,6 +14,6 @@
 }
 
 .profile-text{
-    inline-size: 70%; 
+    inline-size: 80%; 
     word-wrap: break-word;
 }
