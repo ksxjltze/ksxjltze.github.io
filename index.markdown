@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Hello, welcome to my website.<br>
+Welcome to my website.<br>
 You can read more about me [here](/about/ "About Lee Jia Keat") and view my past projects [here](/projects/ "Lee Jia Keat's Projects").
 
 <div id="profile-card">

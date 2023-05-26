@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello there. Welcome to my humble website. <br>
+Hello there.
 
 My name is Jia Keat, I'm a Junior at the DigiPen Institute of Technology majoring in Computer Science in Real-Time Interactive Simulation.
 
