@@ -1,9 +1,12 @@
-{% assign projects_by_end_date_first = include.projects | sort:"end-date" | reverse %}
+{% assign projects_by_end_date_first = include.projects | where_exp: "project", "project.end-date != nil" | sort:"end-date" | reverse %}
+{% assign ongoing_projects = include.projects | where_exp: "project", "project.end-date == nil" | sort:"start-date" | reverse %}
+
+{% for project in ongoing_projects %}
+  <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
+  <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - "Ongoing" </i></p>
+{% endfor %}
+
 {% for project in projects_by_end_date_first %}
   <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
-
-  <!-- end-date is defined here -->
-  {% include project-end-date.html %}
-  
-  <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - {{ end_date }}</i></p>
+  <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - {{ project.end-date | date: "%B %Y"}}</i></p>
 {% endfor %}

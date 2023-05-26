@@ -2,7 +2,7 @@
 layout: project
 title: "Captain Jumper Boy"
 permalink: "projects/captainjumperboy/"
-start-date: 2022-02-01
+start-date: 2023-02-01
 end-date: 2023-03-01
 school-project: True
 school: DigiPen Institute of Technology Singapore

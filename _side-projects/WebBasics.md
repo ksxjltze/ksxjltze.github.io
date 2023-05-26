@@ -2,8 +2,8 @@
 layout: project
 title: "Web Basics"
 permalink: "side-projects/webbasics/"
-start-date: 2023-07-01
-end-date: 2023-07-01
+start-date: 2022-07-01
+end-date: 2022-07-01
 github-link: https://github.com/ksxjltze/web-basics
 ---
 
