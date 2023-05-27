@@ -14,5 +14,5 @@ You can read more about me [here](/about/ "About Lee Jia Keat") and view my past
         <h1><b>Software Engineer</b></h1>
         <p class="profile-text">Hello, my name is Lee Jia Keat. An aspiring Software Engineer based in Singapore.</p>
     </div>
-    <img class="profile-item" id="profile-img" src="/images/lee-jia-keat.png" alt="Lee Jia Keat" width="35%">
+    <img class="profile-item" id="profile-img" src="/images/lee-jia-keat.png" alt="Lee Jia Keat" width="220em">
 </div>
