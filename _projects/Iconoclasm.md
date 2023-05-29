@@ -18,10 +18,11 @@ It was developed for the Software Engineering Project 5 and Software Engineering
 
 ## Software Engineering Project 5 (CSD3400/GAM300):
 This module focuses on the development of the custom game engine, named EngineEngine, which is written from scratch in C++ with the help of third party libraries and APIs.
-My role, as a programmer in a team of 10 students, was largely to build serialization systems and the asset pipeline, while playing an assisting role in the development of the graphics engine.
+My role, as a programmer in a team of 10 students (Team GodKillers), was largely to build serialization systems and the asset pipeline, while playing an assisting role in the development of the graphics engine.
 
 ### Engine Showcase
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/90ZM4lTItI8" title="GodKillers - EngineEngine Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<i>Credit: Bryan Koh Yan Wei, Editor Programmer of Team GodKillers</i>
 
 ### Libraries:
 - GLFW: Used for creating and managing windows, as well as for creating the OpenGL rendering context.
@@ -45,6 +46,7 @@ When the engine is started, all files in the assets directory are processed on a
 This makes it easy to create a loading screen, using synchronization to concurrently update graphics and process files.
 
 #### Asset Compiler
+The concept of the Asset compiler and resource descriptor (for this project) can be credited to Tomas Arce, professor and lecturer for the CSD3400/CSD3450 modules. <br><br>
 When an asset is imported into the engine, a resource descriptor is generated and the the asset is compiled using an external tool, the Asset Compiler.
 The external tool is aware of the engine's internal resource formats, achieved using shared header files during code compilation. 
 One advantage of the asset compiler being an executable separate from the engine is that it can easily be parallelized, with multiple processes compiling assets concurrently.
@@ -65,6 +67,10 @@ The EnTT library provides a lightweight runtime reflection system that is non-in
 ### Serialization
 Scene files and entity prefabs/archetypes are stored as JSON files on the disk. Storing data in JSON allows ease of modification of entity attributes and components, enabling rapid prototyping as well as convenient merging and copying of entity data. The rapidjson library works incredibly well for this purpose, with the majority of the serialization system built around its use.
 
+#### Templates, functors, maps
+Splitting the serialization code into smaller modular pieces allows for smooth extension of the serialization system. For example, separate function objects (i.e. a Lambda) are used to store code that can serialize integers, floating numbers, strings, vectors, etc. into JSON. Each function object is associated with a key, the type id of the Type to be serialized.
+Using runtime reflection, this type id can be queried for any type, allowing the serializer to dynamically serialize and deserialize types to and from JSON. This modular design allows complex types to reuse the serialization code of its component types, without the need for explicit serialization of the type as a whole.
+
 ### Material System
 TBC
 
@@ -76,6 +82,7 @@ The gameplay of Iconoclasm: Fall of the False God, is largely developed by a tea
 
 ### Gameplay Showcase
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/BCFzNFtZF_E" title="Iconoclasm GameplayVideo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<i>Credit: Gavin Lim, Product Manager of Team GodKillers.</i>
 
 ### Particle System
 TBC
