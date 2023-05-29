@@ -4,9 +4,11 @@
 {% for project in ongoing_projects %}
   <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
   <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - Ongoing </i></p>
+  {% include project-description.html %}
 {% endfor %}
 
 {% for project in projects_by_end_date_first %}
   <a href="../{{ project.permalink }}"><h2>{{ project.title }}</h2></a>
   <p class="subtitle"><i>{{ project.start-date | date: "%B %Y"}} - {{ project.end-date | date: "%B %Y"}}</i></p>
+  {% include project-description.html %}
 {% endfor %}
