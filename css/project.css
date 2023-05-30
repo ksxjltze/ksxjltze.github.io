@@ -4,4 +4,10 @@
 
 #project-info{
     margin-bottom: -1.0em;
+    display: flex;
+    flex-direction: row;
+}
+
+#project-info-item1{
+    flex-basis: 50%;
 }
