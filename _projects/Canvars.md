@@ -2,6 +2,7 @@
 layout: project
 title: "Canvars"
 permalink: "projects/canvars/"
+game-engine: "AWS Amplify"
 start-date: 2023-03-01
 end-date: 2023-04-01
 school-project: True
