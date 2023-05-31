@@ -7,12 +7,7 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1> 
     <div id="project-info">
       <div class="project-detail" id="project-info-item1">
-        {% if page.end-date %}
-          {% assign end_date = page.end-date | date: "%B %Y" %}
-        {% else %}
-          {% assign end_date = "Ongoing" %}
-        {% endif %}
-        <p><i>{{ page.start-date | date: "%B %Y"}} - {{ end_date }}</i></p>
+        {% include project-date.html project=page %}
         {%- if page.game-engine -%}
           <p class="subtitle"><i>{{page.game-engine}}</i></p>
         {%- endif -%}
