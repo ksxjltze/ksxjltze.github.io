@@ -17,6 +17,8 @@ As the technical lead of a team of 4 programmers, I was responsible for designin
 
 
 ## Architecture and Features
+I was responsible for building the following systems.
+
 ### Component System
 TODO
 ### Scripting

@@ -10,4 +10,8 @@ school: Ngee Ann Polytechnic
 module: Portfolio 2
 ---
 
-2D Mobile fitness game.
+2D Mobile fitness game developed in Unity.
+
+## Features
+- Pushup Battle: Player Versus Player activity, players deal damage to the opponent by doing pushups.
+- Equipment System
