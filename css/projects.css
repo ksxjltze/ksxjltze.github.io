@@ -11,3 +11,11 @@
 .project-details{
     margin-left: 1em;
 }
+
+.project-icon{
+    transition: transform 0.3s ease;
+}
+
+.project-icon:hover{
+    transform: rotate3d(0, 0, 1, 360deg);
+}
