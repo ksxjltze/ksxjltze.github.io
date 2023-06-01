@@ -1,7 +1,13 @@
 .project-list-item{
     transition: transform 0.25s ease;
+    display: flex;
+    align-items: center;
 }
 
 .project-list-item:hover{
     transform: scale(1.05);
+}
+
+.project-details{
+    margin-left: 1em;
 }

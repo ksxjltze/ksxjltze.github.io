@@ -1,5 +1,8 @@
-<div class="project">
-    <div class="project-list-item">
+<div class="project-list-item">
+    <div class="project-icon">
+        <img src="/images/boi.png">
+    </div>
+    <div class="project-details">
         <a href="../{{ project.permalink }}"><h2>{{ include.project.title }}</h2></a>
         {% include project-date.html project=include.project is-subtitle=true %}
         {% include project-description.html %}
