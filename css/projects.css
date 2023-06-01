@@ -1,0 +1,7 @@
+.project-list-item{
+    transition: transform 0.25s ease;
+}
+
+.project-list-item:hover{
+    transform: scale(1.05);
+}

@@ -1,5 +1,7 @@
 <div class="project">
-    <a href="../{{ project.permalink }}"><h2>{{ include.project.title }}</h2></a>
-    {% include project-date.html project=include.project is-subtitle=true %}
-    {% include project-description.html %}
+    <div class="project-list-item">
+        <a href="../{{ project.permalink }}"><h2>{{ include.project.title }}</h2></a>
+        {% include project-date.html project=include.project is-subtitle=true %}
+        {% include project-description.html %}
+    </div>
 </div>
