@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="/css/projects.css" />
 {% assign projects_by_end_date_first = include.projects | where_exp: "project", "project.end-date != nil" | sort:"end-date" | reverse %}
 {% assign ongoing_projects = include.projects | where_exp: "project", "project.end-date == nil" | sort:"start-date" | reverse %}
 
