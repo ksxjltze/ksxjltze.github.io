@@ -7,24 +7,24 @@ function ProfileCard() {
             </div>
             <img className="profile-item" id="profile-img" src="/images/lee-jia-keat.png" alt="Lee Jia Keat"/>
         </div>);
-    }
+}
 
-    function Description(){
+function Description(){
     return(
         <div>
             <p>Welcome to my website. <br></br>
             You can read more about me <a href="/about/">here</a> and view my past projects <a href="/projects/">here</a>.</p>
         </div>);
 
-    }
+}
 
-    function HomePage(){
+function HomePage(){
     return (
-    <div id="profile">
-        <ProfileCard />
-        <Description />
-    </div>);
-    }
+        <div id="profile">
+            <ProfileCard />
+            <Description />
+        </div>);
+}
 
-    const home = document.getElementById('home');
+const home = document.getElementById('home');
 ReactDOM.render(<HomePage />, home);

@@ -1,0 +1,15 @@
+.page-link{
+    transition: color 0.2s ease;
+}
+
+.page-link:hover{
+    color: blue;
+}
+
+.site-title{
+    transition: font-weight 0.1s ease;
+}
+
+.site-title:hover{
+    font-weight: bold;
+}
