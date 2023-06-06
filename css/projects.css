@@ -7,6 +7,8 @@
     border-style: solid;
     margin-bottom: 1em;
     padding: 0.5em;
+    background-size: cover;
+    background-position: center;
 }
 
 .project-list-item:hover{
@@ -15,6 +17,7 @@
 
 .project-details{
     margin-left: 1em;
+    width: 100%;
 }
 
 .project-icon{

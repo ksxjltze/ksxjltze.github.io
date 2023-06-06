@@ -9,6 +9,10 @@ school-project: True
 school: DigiPen Institute of Technology Singapore
 module: Software Engineering Project 5-6
 description: 3D hack-n-slash action game.
+
+background: /images/iconoclasm-logo.jpeg
+text-color: white
+text-background-color: rgba(0.0, 0.0, 0.0, 0.6)
 ---
 
 Iconoclasm is a 3D hack-n-slash action game.<br>
