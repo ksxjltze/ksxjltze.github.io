@@ -2,6 +2,11 @@
     transition: transform 0.25s ease;
     display: flex;
     align-items: center;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 1em;
+    padding: 0.5em;
 }
 
 .project-list-item:hover{
