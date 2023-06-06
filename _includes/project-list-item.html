@@ -1,4 +1,4 @@
-<div class="project-list-item" style="background-image: url('{{project.background}}'); color: {{project.text-color}}">
+<div onclick="openProjectLink('/{{project.permalink}}')"class="project-list-item" style="background-image: url('{{project.background}}'); color: {{project.text-color}}">
     <div class="project-icon">
         {%if project.project-icon %}
             <img src="{{project.project-icon}}" width="52em">
@@ -7,7 +7,7 @@
         {% endif %}
     </div>
     <div class="project-details" style="background-color: {{project.text-background-color}}">
-        <a class="project-link" style="color: {{project.text-color}};" href="../{{ project.permalink }}"><h2>{{ include.project.title }}</h2></a>
+        <a class="project-link" style="color: {{project.text-color}}; text-decoration: none;" href="../{{ project.permalink }}"><h2>{{ include.project.title }}</h2></a>
         {% include project-date.html project=include.project is-subtitle=true %}
         {% include project-description.html %}
     </div>

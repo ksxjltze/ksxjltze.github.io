@@ -1,3 +1,3 @@
-function test(){
-    alert("TEST")
+function openProjectLink(link) {
+    window.open(link, target="_self");
 }
