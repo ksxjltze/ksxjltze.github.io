@@ -3,16 +3,21 @@ layout: project
 title: "Captain Jumper Boy"
 permalink: "projects/captainjumperboy/"
 game-engine: "Android Studio"
+
 start-date: 2023-02-01
 end-date: 2023-03-01
+
 school-project: True
 school: DigiPen Institute of Technology Singapore
 module: CSD3156 - Mobile and Cloud Computing 
+
 github-link: https://github.com/ksxjltze/captain_jumper_boy
 description: Simple Doodle Jump clone.
 
 project-icon: /images/captainjumperboy/captainjumperboy-logo.png
+icon-animation: jump
 background: /images/captainjumperboy/captainjumperboy-gameplay.png
+
 text-color: white
 text-background-color: rgba(0.0, 0.0, 0.0, 0.5)
 ---

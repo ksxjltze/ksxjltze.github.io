@@ -4,9 +4,9 @@ style="
     color: {{project.text-color}};
     background-position-y: {{project.background-offset-y}};
     background-position-x: {{project.background-offset-x}};">
-    <div class="project-icon">
+    <div class="project-icon {{project.icon-animation}}">
         {%if project.project-icon %}
-            <img src="{{project.project-icon}}" width="52em">
+            <img style="border-radius: {{project.icon-radius}}; transform: scale({{project.icon-scale;}})" src="{{project.project-icon}}" width="52em">
         {% else %}
             <img src="/images/boi.png">
         {% endif %}

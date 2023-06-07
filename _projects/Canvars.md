@@ -3,16 +3,23 @@ layout: project
 title: "Canvars"
 permalink: "projects/canvars/"
 game-engine: "AWS Amplify"
+
 start-date: 2023-03-01
 end-date: 2023-04-01
+
 school-project: True
 school: DigiPen Institute of Technology Singapore
 module: CSD3156 - Mobile and Cloud Computing 
+
 github-link: https://github.com/CloudyBestFriends/canvars
 description: Portfolio Showcase Cloud Web App.
 
 project-icon: /images/canvars/matt.png
+icon-animation: bulge
+icon-radius: 100%
+icon-scale: 1.20
 background: /images/canvars/canvars-carousel.png
+
 text-color: white
 text-background-color: rgba(0.0, 0.0, 0.0, 0.5)
 background-offset-y: 0
