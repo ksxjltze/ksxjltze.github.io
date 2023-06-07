@@ -8,6 +8,21 @@ end-date: 2020-01-01
 school-project: True
 school: Ngee Ann Polytechnic
 module: Capstone Project
+
+github-link: https://github.com/dylanhan99/BeatMapper
+description: A novel 2D rhythm game editor concept.
+
+project-icon: /images/beatmapper/beatmapper-mascot.png
+icon-animation: bulge
+icon-scale: 1.0
+background: /images/beatmapper/beatmapper-title.png
+
+text-color: black
+text-background-color: rgba(0.0, 0.0, 0.0, 0.0)
+text-background-offset-x: 95%
+text-background-offset-y: 40%
+text-background-size: 35%
+text-background-repeat: no-repeat;
 ---
 
 2D Vertical Scrolling Rhythm Game beatmap player and editor.

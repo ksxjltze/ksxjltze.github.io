@@ -21,7 +21,7 @@ background: /images/captain-stealth/captain-stealth-menu.png
 
 text-color: white
 text-background-color: rgba(0.0, 0.0, 0.0, 0.4)
-background-offset-y: 15%
+text-background-offset-y: 15%
 ---
 
 2D Top-down stealth game developed in C++. Switch between two characters to work together to escape the prison.

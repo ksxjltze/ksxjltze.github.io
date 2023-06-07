@@ -21,8 +21,8 @@ icon-scale: 1.20
 background: /images/canvars/canvars-carousel.png
 
 text-color: white
-text-background-color: rgba(0.0, 0.0, 0.0, 0.2)
-background-offset-y: 0
+text-background-color: rgba(0.0, 0.0, 0.0, 0.4)
+text-background-offset-y: 0
 ---
 
 Canvars is a simple portfolio showcase web app created using AWS Amplify and ReactJS.

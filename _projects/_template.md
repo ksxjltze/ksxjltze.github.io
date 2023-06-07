@@ -22,5 +22,8 @@ background:
 
 text-color:
 text-background-color:
-background-offset-y:
+text-background-offset-x:
+text-background-offset-y:
+text-background-scale:
+text-background-repeat:
 ---
