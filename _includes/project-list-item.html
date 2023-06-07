@@ -1,4 +1,9 @@
-<div onclick="openProjectLink('/{{project.permalink}}')"class="project-list-item" style="background-image: url('{{project.background}}'); color: {{project.text-color}}">
+<div onclick="openProjectLink('/{{project.permalink}}')"class="project-list-item" 
+style="
+    background-image: url('{{project.background}}'); 
+    color: {{project.text-color}};
+    background-position-y: {{project.background-offset-y}};
+    background-position-x: {{project.background-offset-x}};">
     <div class="project-icon">
         {%if project.project-icon %}
             <img src="{{project.project-icon}}" width="52em">

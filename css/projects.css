@@ -17,7 +17,9 @@
 }
 
 .project-details{
-    margin-left: 1em;
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+    border-radius: 10px;
     width: 100%;
 }
 

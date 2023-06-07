@@ -26,6 +26,8 @@ This module focuses on the development of the custom game engine, named EngineEn
 My role, as a programmer in a team of 10 students (Team GodKillers), was largely to build serialization systems and the asset pipeline, while playing an assisting role in the development of the graphics engine.
 
 ### Engine Showcase
+<img src="/images/iconoclasm/iconoclasm-engine.png" width="100%" height="100%">
+
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/90ZM4lTItI8" title="GodKillers - EngineEngine Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <i>Credit: Bryan Koh Yan Wei, Editor Programmer of Team GodKillers</i>
 
