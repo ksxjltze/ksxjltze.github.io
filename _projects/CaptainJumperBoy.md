@@ -8,6 +8,13 @@ end-date: 2023-03-01
 school-project: True
 school: DigiPen Institute of Technology Singapore
 module: CSD3156 - Mobile and Cloud Computing 
+github-link: https://github.com/ksxjltze/captain_jumper_boy
+description: Simple Doodle Jump clone.
+
+project-icon: /images/captainjumperboy/captainjumperboy-logo.png
+background: /images/captainjumperboy/captainjumperboy-gameplay.png
+text-color: white
+text-background-color: rgba(0.0, 0.0, 0.0, 0.5)
 ---
 
 CaptainJumperBoy is a simple 2D mobile game inspired by the classic Doodle Jump mobile game.
@@ -23,3 +30,11 @@ The rendering layer uses Android Canvas as its core, using matrix transformation
 ## Cloud Features
 Firebase Realtime database was used to store global leaderboard data. 
 Using Firebase authentication, users of the application are able to sign up, log in, and save their highscores onto the cloud.
+
+## Media
+
+### Presentation
+<iframe src="https://drive.google.com/file/d/127-aCRGw0gI-yyn3SyQKWkeVlIlS-4Rc/preview" width="100%" height="400em" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+
+### Gameplay
+<iframe src="https://drive.google.com/file/d/1kHi_ut2HEbvpUdRwsUdL6lzstrGT3kgg/preview" width="100%" height="400em" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
