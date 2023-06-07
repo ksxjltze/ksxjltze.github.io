@@ -17,6 +17,7 @@ description:
 project-icon:
 icon-animation: (spin, jump)
 icon-radius:
+icon-scale:
 background:
 
 text-color:

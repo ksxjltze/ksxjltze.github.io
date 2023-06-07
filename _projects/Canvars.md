@@ -21,7 +21,7 @@ icon-scale: 1.20
 background: /images/canvars/canvars-carousel.png
 
 text-color: white
-text-background-color: rgba(0.0, 0.0, 0.0, 0.5)
+text-background-color: rgba(0.0, 0.0, 0.0, 0.2)
 background-offset-y: 0
 ---
 
