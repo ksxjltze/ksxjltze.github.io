@@ -1,30 +1,38 @@
+<!-- liquid-style-capture: project-list-item-style -> project-list-item -->
 {% capture project-list-item-style %}
 style="    
+    /*(sw-if project.background): background-image*/
     {%-if project.background -%}
         background-image: url('{{project.background}}');
     {%-endif-%}
 
+    /*(sw-if project.text-color): color*/
     {%-if project.text-color-%}
         color: {{project.text-color}};
     {%-endif-%}
 
+    /*(sw-if project.text-background-offset-y): background-position-y*/
     {%-if project.text-background-offset-y-%}
         background-position-y: {{project.text-background-offset-y}};
     {%-endif-%}
 
+    /*(sw-if project.text-background-offset-x): background-position-x*/
     {%-if project.text-background-offset-x-%}
         background-position-x: {{project.text-background-offset-x}};
     {%-endif-%}
 
+    /*(sw-if project.text-background-size): background-size*/
     {%-if project.text-background-size-%}
         background-size: {{project.text-background-size}};
     {%-endif-%}
 
+    /*(sw-if project.text-background-repeat): background-repeat*/
     {%-if project.text-background-repeat-%}
         background-repeat: {{project.text-background-repeat}};
     {%-endif-%}"
 {% endcapture %}
 
+<!-- liquid-style-capture: project-icon-style -> project-icon -->
 {% capture project-icon-style %}
 style=
 "{%-if project.icon-radius-%}
@@ -38,26 +46,17 @@ style=
 {% assign icon = project.project-icon %}
 {% if icon == null or icon == "" %} {% assign icon = "/images/boi.png" %} {% endif %}
 
+<!-- liquid-style-capture: project-details-text-style -> project-link -->
 {% capture project-details-text-style %}
     style="    
+    /*(sw-if project.text-color): color*/
     {%-if project.text-color-%}
         color: {{project.text-color}};
     {%-endif-%}
     text-decoration: none;"
 {% endcapture %}
 
+<!-- liquid-style-capture: project-details-style -> project-details -->
 {% capture project-details-style %}
     style="background-color: {{project.text-background-color}}"
 {% endcapture %}
-
-<div onclick="openProjectLink('/{{project.permalink}}')"class="project-list-item" {{project-list-item-style}}>
-    <div class="project-icon {{project.icon-animation}}">
-            <img {{project-icon-style}} src="{{project.project-icon}}" width="52em">
-    </div>
-    <div class="project-details" {{project-details-style}}>
-        <a class="project-link" {{project-details-text-style}}
-            href="../{{ project.permalink }}"><h2>{{ include.project.title }}</h2></a>
-        {% include project-date.html project=include.project is-subtitle=true %}
-        {% include project-description.html %}
-    </div>
-</div>
