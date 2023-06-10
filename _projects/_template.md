@@ -26,4 +26,6 @@ text-background-offset-x:
 text-background-offset-y:
 text-background-scale:
 text-background-repeat:
+
+short-title:
 ---

@@ -19,6 +19,8 @@ background: /images/iconoclasm-logo.jpeg
 
 text-color: white
 text-background-color: rgba(0.0, 0.0, 0.0, 0.6)
+
+short-title: Iconoclasm
 ---
 
 Iconoclasm is a 3D hack-n-slash action game.<br>

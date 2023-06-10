@@ -11,7 +11,7 @@ layout: home
 <!-- <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> -->
-<!-- <script src="/scripts/home.js" type="text/jsx"></script> -->
+<script src="/scripts/home.js"></script>
 <div id="home">
     <div id="profile-card">
         <div className="profile-item" id="profile-info">
@@ -23,5 +23,25 @@ layout: home
     <div>
         <p>Welcome to my website.<br>
         You can read more about me <a href="/about/">here</a> and view my past projects <a href="/projects/">here</a>.</p>
+    </div>
+    <div id="projects-showcase">
+        <h1 id="projects-showcase-title">Works</h1>
+        <div id="projects-grid">
+            {% for project in site.projects %}
+                {% assign title = project.short-title %}
+                {% unless title %}
+                    {% assign title = project.title %}
+                {% endunless %}
+
+                {% assign background = project.background %}
+                {% unless background %}
+                    {% assign background = "/images/boi.png" %}
+                {% endunless %}
+                <div class="project-grid-item" onclick="openProjectLink('/{{project.permalink}}')">
+                    <img class="project-grid-item-background" src={{background}}>
+                    <h3 class="project-grid-item-title">{{title}}</h3>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
