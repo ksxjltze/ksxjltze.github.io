@@ -1,5 +1,5 @@
 ---
-layout:
+layout: project
 title:
 permalink:
 game-engine:
