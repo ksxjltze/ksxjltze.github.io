@@ -13,8 +13,6 @@ A simple project for learning the Angular framework.
 Thanks to Vercel, you can see it in action [here](https://angularing.vercel.app/).
 
 The project name is a work-in-progress, I'll most likely change it after I decide what I actually want to make (after the tutorial).
-Tutorial Link: [https://angular.io/tutorial/first-app](https://angular.io/tutorial/first-app
-)
 
 ## Diary?
 ### Day One
@@ -25,8 +23,31 @@ Did the Hello World on the tutorial and worked on the following lessons every on
 
 I called it a day after completing lesson 11 (Route parameters).
 
+Tutorial Link: [https://angular.io/tutorial/first-app](https://angular.io/tutorial/first-app)
+
+### Day Three
+Completed the tutorial and messed around with adding in custom filters for the search feature. Learned how to use a json server to fake a REST API, how to use template variables, how to fetch data from an endpoint using async methods, how to bind events and use array functions, etc.
+
+After finishing the tutorial, I wasted a few hours trying to hack in a MongoDB integration for the vercel deployment to retrieve data from. Ultimately I gave up after running into polyfill problems and getting a massive headache. Instead, I created a second vercel project to act as a json server and fetched the data from there instead (courtesy of Ivo Culic on Medium, see the article [here](https://ivo-culic.medium.com/create-restful-api-with-json-server-and-deploy-it-to-vercel-d56061c1157a)).
+
+Check out the API [here](https://quick-and-dirty-restful-api.vercel.app/).
+
+As for setting up a proper database and REST APIs, that will have to wait for another day; when I get around to learning Spring (my future choice of backend framework).
+I decided to end the day here, I'll need some time to think about what to do next.
+
 ## Media
-<div>
+### Day One
 <img src="/images/angularing/angularing-day-one.png"/>
 <i>First day's results of working on the Angular tutorial.</i>
+
+### Day Three
+<div id="day-three">
+    <img src="/images/angularing/angularing-day-three-home.png"/>
+    <i>Home page.</i>
+    <br><br>
+    <img src="/images/angularing/angularing-day-three-filter.png"/>
+    <i>Filtering by city name.</i>
+    <br><br>
+    <img src="/images/angularing/angularing-day-three-details.png"/>
+    <i>Details page with form.</i>
 </div>
