@@ -3,27 +3,27 @@ layout: default
 ---
 <article class="post">
   <link rel="stylesheet" type="text/css" href="/css/project.css" />
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1> 
-    <div id="project-info">
+  <header class="post-header project-header">
+    <h1 class="post-title project-title">{{ page.title | escape }}</h1>
+    <hr/>
+    <section id="project-info">
       <div class="project-detail" id="project-info-item1">
         {% include project-date.html project=page %}
         {%- if page.game-engine -%}
-          <p class="subtitle"><i>{{page.game-engine}}</i></p>
+        <p class="subtitle"><i>{{page.game-engine}}</i></p>
         {%- endif -%}
         {%- if page.github-link -%}
-          <p class="subtitle"><a href="{{page.github-link}}">Github Page</a></p>
+        <p class="subtitle"><a href="{{page.github-link}}">Github Page</a></p>
         {%- endif -%}
       </div>
       <div class="project-detail">
         {%- if page.school-project -%}
-          <p><i>{{page.module}}</i></p>
-          <p class="subtitle"><i>{{page.school}}</i></p>
+        <p><i>{{page.module}}</i></p>
+        <p class="subtitle"><i>{{page.school}}</i></p>
         {%- endif -%}
-    </div>
-    </div>
+      </div>
+    </section>
   </header>
-
   <div class="post-content">
     {{ content }}
   </div>

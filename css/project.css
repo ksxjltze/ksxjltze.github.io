@@ -11,3 +11,13 @@
 #project-info-item1{
     flex-basis: 50%;
 }
+
+.project-header{
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.project-title{
+    font-weight: bold;
+}

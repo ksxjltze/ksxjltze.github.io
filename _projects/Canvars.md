@@ -29,6 +29,8 @@ Canvars is a simple portfolio showcase web app created using AWS Amplify and Rea
 Initially planned to have a Django backend, which was unfortunately scrapped due to time constraints.
 The web app is longer in service.
 
+<hr/>
+
 ## Responsibilites
 ### AWS Administration
 I was responsible for setting up the IAM Identity Centre accounts and roles for my team members.

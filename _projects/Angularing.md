@@ -14,18 +14,18 @@ Thanks to Vercel, you can see it in action [here](https://angularing.vercel.app/
 
 The project name is a work-in-progress, I'll most likely change it after I decide what I actually want to make (after the tutorial).
 
-## Diary?
-### Day One
+## Diary of sorts
+### Day One - 03/16/2023
 Created a repository from the Vercel Angular quickstart template. Went to sleep.
 
-### Day Two
+### Day Two - 04/16/2023
 Did the Hello World on the tutorial and worked on the following lessons every once in a while. Learned about components, templates, routing, HTML interpolation, property binding, input/output pattern, services, etc.
 
 I called it a day after completing lesson 11 (Route parameters).
 
 Tutorial Link: [https://angular.io/tutorial/first-app](https://angular.io/tutorial/first-app)
 
-### Day Three
+### Day Three - 05/16/2023
 Completed the tutorial and messed around with adding in custom filters for the search feature. Learned how to use a json server to fake a REST API, how to use template variables, how to fetch data from an endpoint using async methods, how to bind events and use array functions, etc.
 
 After finishing the tutorial, I wasted a few hours trying to hack in a MongoDB integration for the vercel deployment to retrieve data from. Ultimately I gave up after running into polyfill problems and getting a massive headache. Instead, I created a second vercel project to act as a json server and fetched the data from there instead (courtesy of Ivo Culic on Medium, see the article [here](https://ivo-culic.medium.com/create-restful-api-with-json-server-and-deploy-it-to-vercel-d56061c1157a)).
