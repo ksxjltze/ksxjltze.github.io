@@ -26,6 +26,9 @@ text-background-offset-y: 15%
 
 2D Top-down stealth game developed in C++. Switch between two characters to work together to escape the prison.
 As the technical lead of a team of 4 programmers, I was responsible for designing and implementing the core architecture of the game.
+Download and play it [here](https://drive.google.com/file/d/11V2Er6BbWhtEXWpuYWKSHtf8t8CjySkD/view?usp=sharing) (installer).
+
+<hr/>
 
 ## Theme
 Prison break.
@@ -75,12 +78,15 @@ View Matrix does view matrix things.
 Simple wrapper that calls AlphaEngine rendering code. All graphics in the game uses 2D quads for rendering.
 
 ## Other Features
-These are features that were not implemented by me.
+These are some of the other features that were not implemented by me.
 - Pathfinding
 - Physics
 - Collision
 
 ## Media
+<iframe src="https://drive.google.com/file/d/1OaPQCj2O88W9qHDNm-h-FbGT-6YiNMLh/preview" width="100%" height="480" allow="autoplay" allowfullscreen></iframe>
+<i>Gameplay Demo</i>
+
 <img src="/images/captain-stealth/captain-stealth-menu.png">
 <i>Main Menu</i>
 

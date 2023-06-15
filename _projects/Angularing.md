@@ -15,6 +15,8 @@ Thanks to Vercel, you can see it in action [here](https://angularing.vercel.app/
 The project name is a work-in-progress, I'll most likely change it after I decide what I actually want to make (after the tutorial).
 
 ## Diary of sorts
+<hr/>
+
 ### Day One - 03/16/2023
 Created a repository from the Vercel Angular quickstart template. Went to sleep.
 
