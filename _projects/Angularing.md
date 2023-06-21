@@ -7,6 +7,18 @@ game-engine:
 start-date: 2023-06-13
 github-link: https://github.com/ksxjltze/angularing
 description: Learning how to use Angular for frontend development.
+
+project-icon: /images/angularing/angularing-logo.png
+icon-animation: spin
+icon-scale: 1.5
+background: /images/angularing/angularing-background.png
+
+text-color: white
+text-background-color: rgba(0.0, 0.0, 0.0, 0.6)
+text-background-offset-x: 95%
+text-background-offset-y: 10%
+text-background-size: 80%
+text-background-repeat: no-repeat;
 ---
 
 A simple project for learning the Angular framework.
